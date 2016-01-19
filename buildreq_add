@@ -1,0 +1,6 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+gflags-dev
+zlib-dev
+snappy-dev
+bzip2-dev
