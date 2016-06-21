@@ -4,7 +4,7 @@
 #
 Name     : rocksdb
 Version  : 4.6.1
-Release  : 5
+Release  : 6
 URL      : https://github.com/facebook/rocksdb/archive/v4.6.1.tar.gz
 Source0  : https://github.com/facebook/rocksdb/archive/v4.6.1.tar.gz
 Summary  : No detailed summary available
@@ -17,6 +17,7 @@ BuildRequires : gflags-dev
 BuildRequires : snappy-dev
 BuildRequires : zlib-dev
 Patch1: 0001-Fix-Makefile.patch
+Patch2: build.patch
 
 %description
 This folder defines a REDIS-style interface for Rocksdb.
@@ -44,6 +45,7 @@ lib components for the rocksdb package.
 %prep
 %setup -q -n rocksdb-4.6.1
 %patch1 -p1
+%patch2 -p1
 
 %build
 make V=1  %{?_smp_mflags} shared_lib
