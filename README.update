@@ -1,0 +1,3 @@
+On updating this package you must rebuild:
+* ceph
+* qemu
