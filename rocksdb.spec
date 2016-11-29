@@ -4,7 +4,7 @@
 #
 Name     : rocksdb
 Version  : 4.11.2
-Release  : 7
+Release  : 8
 URL      : https://github.com/facebook/rocksdb/archive/v4.11.2.tar.gz
 Source0  : https://github.com/facebook/rocksdb/archive/v4.11.2.tar.gz
 Summary  : No detailed summary available
