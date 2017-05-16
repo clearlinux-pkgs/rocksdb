@@ -4,7 +4,7 @@
 #
 Name     : rocksdb
 Version  : 5.3.4
-Release  : 12
+Release  : 13
 URL      : https://github.com/facebook/rocksdb/archive/rocksdb-5.3.4.tar.gz
 Source0  : https://github.com/facebook/rocksdb/archive/rocksdb-5.3.4.tar.gz
 Summary  : No detailed summary available
